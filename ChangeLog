@@ -1,0 +1,5 @@
+2005-11-15  Kevin E. Martin  <kem-at-freedesktop-dot-org>
+
+	* Makefile.am:
+	* configure.ac:
+	Add configure option to change the installed font dir.
