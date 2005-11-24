@@ -31,7 +31,7 @@ SUFFIXES = .bdf .pcf.gz
 
 .bdf.pcf.gz:
 	@rm -f $@
-	$(BDFTOPCF) -t $^ | gzip > $@
+	$(BDFTOPCF) -t $< | gzip > $@
 
 fontdir = @FONTDIR@
 font_DATA = $(PCF_FILES)
