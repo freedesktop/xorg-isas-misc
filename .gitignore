@@ -9,3 +9,6 @@ configure
 install-sh
 missing
 *~
+font-isas-misc-*.tar.*
+ChangeLog
+tags
